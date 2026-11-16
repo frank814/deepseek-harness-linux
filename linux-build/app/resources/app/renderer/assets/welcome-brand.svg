@@ -1,0 +1,18 @@
+<svg width="472" height="40" viewBox="0 0 472 40" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="dshColorwayGrad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#5FE3C8"/><stop offset="1" stop-color="#4C82FF"/></linearGradient></defs>
+<style>
+  :root {
+    --dsw-alias-label-primary: #0f1115;
+    --dsw-alias-label-primary-inverted: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --dsw-alias-label-primary: #f9fafb;
+      --dsw-alias-label-primary-inverted: #353638;
+    }
+  }
+</style>
+<g transform="translate(0,2) scale(1.5)">
+<path d="M19.38 6.05C19.54 5.03 19.99 3.75 21.13 2.61C21.54 2.2 21.27 1.44 20.54 1.44C20.54 1.44 16.99 1.44 14.74 3.39C14.15 3.27 13.54 3.2 12.91 3.2C8.22 3.2 5.87 5.55 4.7 10.24C4.44 11.28 4.19 11.06 2.94 12C2.24 12.53 1.7 13.76 3.53 13.76C5.29 13.76 6.46 14.32 8.81 14.35C10.94 14.37 14.38 12.45 15.31 13.59C16.61 15.18 16.13 16.78 15.66 17.5C13.96 19.49 12.18 17.82 10.57 17.28C8.81 16.69 9.98 17.87 10.57 18.45C11.15 19.04 11.34 20.8 10.57 21.97C9.8 23.15 12.33 21.97 13.5 20.21C13.51 20.2 13.51 20.2 13.52 20.19C18.1 19.92 21.71 16.66 21.71 12C21.71 9.7 20.83 7.62 19.38 6.05Z" fill="url(#dshColorwayGrad)" fill-rule="evenodd"/>
+</g>
+<text x="50" y="29" font-family="Montserrat, 'DejaVu Sans', system-ui, sans-serif" font-size="26" font-weight="500" fill="var(--dsw-alias-label-primary)" textLength="412" lengthAdjust="spacingAndGlyphs">DeepSeek Harness</text>
+</svg>

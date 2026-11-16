@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "checkpointId": "phonon-40m-multilingual/796254a3@100",
+  "config": "config.json",
+  "weights": "model.q8.gguf",
+  "tokenizer": "tokenizer.json",
+  "supportedDevices": [
+    "cpu"
+  ],
+  "cpuQuantization": "q8_0",
+  "defaultVoice": "3ZKKapPOvuWFcw9f",
+  "voices": [
+    {
+      "id": "default",
+      "name": "Marlowe",
+      "path": "default-voice.safetensors",
+      "format": "embedding"
+    },
+    {
+      "id": "6PWnV0Nq4wu7RVBT",
+      "name": "Maeve",
+      "path": "voice-library/voices/6PWnV0Nq4wu7RVBT.safetensors",
+      "format": "embedding"
+    },
+    {
+      "id": "dME3IWyZBvmh1n1q",
+      "name": "Toby",
+      "path": "voice-library/voices/dME3IWyZBvmh1n1q.safetensors",
+      "format": "embedding"
+    },
+    {
+      "id": "NbpkqMVS3CJeq2j8",
+      "name": "Zoey",
+      "path": "voice-library/voices/NbpkqMVS3CJeq2j8.safetensors",
+      "format": "embedding"
+    },
+    {
+      "id": "4SZHfMpw-p46Ywgs",
+      "name": "Harper",
+      "path": "voice-library/voices/4SZHfMpw-p46Ywgs.safetensors",
+      "format": "embedding"
+    },
+    {
+      "id": "LMDIYE0Oa377Qh6Z",
+      "name": "Easton",
+      "path": "voice-library/voices/LMDIYE0Oa377Qh6Z.safetensors",
+      "format": "embedding"
+    },
+    {
+      "id": "FXxJ9mANRq6BCTX5",
+      "name": "No\u00e9mie",
+      "path": "voice-library/voices/FXxJ9mANRq6BCTX5.safetensors",
+      "format": "embedding"
+    },
+    {
+      "id": "3ZKKapPOvuWFcw9f",
+      "name": "Anton",
+      "path": "voice-library/voices/3ZKKapPOvuWFcw9f.safetensors",
+      "format": "embedding"
+    }
+  ],
+  "temperature": 0.8,
+  "cfgCoef": 1.0
+}

@@ -1,0 +1,40 @@
+{
+  "bundle_format": "xn-ptts",
+  "cpu": {
+    "architecture": "x86_64",
+    "instruction_set_extensions": [
+      "AVX2"
+    ]
+  },
+  "domain": "tts",
+  "entrypoint": "tts-bundle.json",
+  "extension_type": "model",
+  "files": [
+    "tts-bundle.json",
+    "config.json",
+    "model.q8.gguf",
+    "tokenizer.json",
+    "default-voice.safetensors",
+    "README.md",
+    "voice-library/README.md",
+    "voice-library/voices.jsonl",
+    "voice-library/voices/6PWnV0Nq4wu7RVBT.safetensors",
+    "voice-library/voices/dME3IWyZBvmh1n1q.safetensors",
+    "voice-library/voices/NbpkqMVS3CJeq2j8.safetensors",
+    "voice-library/voices/4SZHfMpw-p46Ywgs.safetensors",
+    "voice-library/voices/LMDIYE0Oa377Qh6Z.safetensors",
+    "voice-library/voices/FXxJ9mANRq6BCTX5.safetensors",
+    "voice-library/voices/3ZKKapPOvuWFcw9f.safetensors",
+    "provenance.json"
+  ],
+  "format": "gguf",
+  "manifest_version": "4",
+  "model": "phonon-40m-multilingual",
+  "name": "phonon-40m-multilingual-linux-x86_64",
+  "platform": "linux",
+  "runtime_requirements": {
+    "engine": "xn-ptts",
+    "minimum_engine_version": "0.1.5"
+  },
+  "version": "0.1.1"
+}
