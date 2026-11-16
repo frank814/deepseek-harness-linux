@@ -1,0 +1,28 @@
+# ---------------------------------------------------------------
+# Private — only for me, never published
+# ---------------------------------------------------------------
+REPO-SETUP.md
+
+# ---------------------------------------------------------------
+# GitHub push guards — these files exceed GitHub's 100 MB limit
+# and would make `git push` fail. Ship them via GitHub Releases.
+# ---------------------------------------------------------------
+
+# The built package (goes to Releases, not the repo)
+*.deb
+
+# Electron runtime binary (219 MB)
+linux-build/app/deepseek-harness
+
+# Bundled Node runtime (121 MB)
+linux-build/app/resources/runtime/primary-runtime/dependencies/node/bin/node
+
+# LibreOffice WASM asset (122 MB)
+linux-build/app/resources/app/dsh/node_modules/@deepseek-ai/libreoffice-kit-wasm/assets/soffice.wasm
+
+# Build staging area (recreated by build-deb.sh)
+linux-build/deb-stage/
+
+# OS noise
+.DS_Store
+Thumbs.db
